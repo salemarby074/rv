@@ -16,7 +16,7 @@ jobs:
               exit 1
           }
 
-      - name: Create link subscribe youtube channel Folder
+      - name: Core RDP Settings
         run: |
           $folderPath = "D:\link subscribe youtube channel"
           if (-Not (Test-Path -Path $folderPath)) {
