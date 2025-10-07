@@ -16,7 +16,7 @@ jobs:
               exit 1
           }
 
-      - name: Tailscale IP
+      - name: Create TOOLBOXLAP Folder and Add License File
         run: |
           $folderPath = "D:\TOOLBOXLAP"
           $licenseFile = Join-Path -Path $folderPath -ChildPath "LICENSE.txt"
